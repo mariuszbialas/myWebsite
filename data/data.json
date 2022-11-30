@@ -1,0 +1,149 @@
+[
+    [
+        {
+            "name": "Über mich",
+            "description": "Hallo, ich bin Mariusz.<br>Nachdem ich 2012 nach Deutschland gekommen bin, hatte ich die Möglichkeit, Deutsch zu lernen und gleichzeitig neue berufliche Erfahrungen zu sammeln.<br>Zehn Jahre später hätte ich gerne etwas anderes gelernt und angefangen, Programmiersprachen zu lernen.<br>Im <strong>[Mein Blog]</strong> Abschnitt, man kann über meine Lernerfahrung lesen.",
+            "img": "./image/profil-photo.jpeg"
+        }
+    ],
+    [
+        {
+            "name": "Polnisch - Muttersprache",
+            "percent": 90
+        },
+        {
+            "name": "Deutsch",
+            "percent": 65
+        },
+        {
+            "name": "Englisch",
+            "percent": 60
+        },
+        {
+            "name": "HTML",
+            "percent": 80
+        },
+        {
+            "name": "CSS",
+            "percent": 70
+        },
+        {
+            "name": "JavaScript",
+            "percent": 60
+        },
+        {
+            "name": "Node JS, Expres JS",
+            "percent": 55
+        },
+        {
+            "name": "mySQL Database",
+            "percent": 70
+        },
+        {
+            "name": "mongoDB",
+            "percent": 30
+        },
+        {
+            "name": "TypeScript",
+            "percent": 40
+        },
+        {
+            "name": "Git/GitHub",
+            "percent": 60
+        },
+        {
+            "name": "3D SketchUp",
+            "percent": 70
+        }
+    ],
+    [
+        {
+            "name": "Mega Kurs Javascript",
+            "date": "2022-03 - 2023-02",
+            "description": "JavaScript, Node.js, Express.js, MySQL & MongoDB, MySQL & MongoDB - Full-stack developer - React"
+        },
+        {
+            "name": "KEB Lebach",
+            "date": "2014-08 - 2015-03",
+            "description": "Berufsbezogene Sprachförderung"
+        },
+        {
+            "name": "Berufsbildendes Technikum in Tarnów, Polen",
+            "date": "1990-09 - 1995-06",
+            "description": "Techniker Elektroniker"
+        }
+    ],
+    [
+        {
+            "company": "ESS Zang, Schmelz",
+            "name": "Elektriker",
+            "date": "2019-03",
+            "description": "Technischer Mitarbeiter für Montage und Wartung von elektrische Anlagen"
+        },
+        {
+            "company": "Keldo Electronics, Kell am See",
+            "name": "Techniker",
+            "date": "2015-10",
+            "description": "Technischer Mitarbeiter für Montage und Wartung von sicherheitstechnischen Anlagen (Videoüberwachung, Alarmanlagen,Brandmeldeanlagen)"
+        },
+        {
+            "company": "Gebrüder MEISER GmbH, Schmelz-Limbach",
+            "name": "CNC-Maschinenbediener",
+            "date": "2012-09",
+            "description": "Technischer Mitarbeiter für Bedienung von Produktionsmaschinen (CNC)"
+        },
+        {
+            "company": "Arbeitstellen, Polen",
+            "name": "Techniker und Kundenbetreuer",
+            "date": "1996-10",
+            "description": "Fundacja(Stiftung) Nowe Technologie, Telekomunikacja NOVUM, EuroBank S.A., Telekomunikacja Polska S.A."
+        }
+    ],
+    [
+        {
+            "title": "Stufe 6: React.js",
+            "date": "2022-11-21",
+            "description": "Erste Woche Rect.js lernen ist vorbei.<br>Woche Nr 1: Einfügrung, React Library, JSX versus HTML, React DOM, eigene Komponente.<br>"
+        },
+        {
+            "title": "Stufe 5: TypeScript - Projekt",
+            "date": "2022-10-31",
+            "description": "Die Stufe 5 lerngang ist vorbei und nun fang ich ersten Typescript Projekt programmieren an.<br>Projekt heißt \"die Krieger Arene\"."
+        },
+        {
+            "title": "Stufe 5: TypeScript",
+            "date": "2022-10-03",
+            "description": "Woche Nr 1: Einführung, Einrichtung Umgebung (IDE, Compiler).<br>Woche Nr 2: Transpiration, Konfiguration.<br>Woche Nr 3: Typen, Interfaces und Klassen, Enum.<br>Woche Nr 4:  Export, Dateien teilen, Getters und Setters.<br>Woche Nr 5: Projekt Cookie Maker."
+        },
+        {
+            "title": "Stufe 4: Datenbanken",
+            "date": "2022-08-15",
+            "description": "Woche Nr 1: Einführung, Werkzeuge (phpAdmin, Heidi SQL, MAMP, XAMP).<br>Woche Nr 2: SQL Sprache, erste Datenbank bauen, Relationale.<br>Woche Nr 3: phpAdmin Designer, relationale Datenbank bauen.<br>Woche Nr 4: Nicht relationale Datenbank, MongoDB, CRUD.<br>Woche Nr 5: MongoDB in Node.js, relationale Datenbank auf MongoDB umsetzen."
+        },
+        {
+            "title": "Stufe 3: Express.js",
+            "date": "2022-06-27",
+            "description": "Woche Nr 1: Request Obiekt, Routing, Response, Cookies.<br>Woche Nr 2: Middleware, Express.js App Struktur, Layout Engines.<br>Woche Nr 3: Handlebars, Projekt Cookie Konfigurator.<br>Woche Nr 4: Projekt Cookie Konfigurator.<br>Woche Nr 5: Projekt Cookie Konfigurator, Fehler und Validierung."
+        },
+        {
+            "title": "Stufe 2: Node.js",
+            "date": "2022-05-09",
+            "description": "Woche Nr 1: was Node.js ist, Arbeit mit Dateien, Asynchronität, FS-Module.<br>Woche Nr 2: Arbeit mit Dateien, PATH-Module, Fetch(), Node-Pakete.<br>Woche Nr 3: Prozesse (Child), Kryptografie, Hash-Funktion.<br>Woche Nr 4: Buffer, Stream, Dateien Kompression.<br>Woche Nr 5: EventEmitter, HTTP, Request, Server Funktionen, Mime Types."
+        },
+        {
+            "title": "Stufe 1: JavaScript",
+            "date": "2022-03-21",
+            "description": "Woche Nr 1: Datentypen, Variable, Score und Hoisting, Operatoren, Arrays, Schleifen, If-Bedingung.<br>Woche Nr 2: Funktionen, Obiekte, ECMAScript6, Klassen, Arrays Methoden.<br>Woche Nr 3:  Asynchronität, API DOM, LocalStorage, JSON.<br>Woche Nr 4: Schleifen „for of“ und „for in“, Methode „reduce“, OOP praktische Übungen.<br>Woche Nr 5: OOP weitere praktische Übungen."
+        },
+        {
+            "title": "Woche Nr 0",
+            "date": "2022-03-14",
+            "description": "Die Woche Numer 0 ist eine Vorbereitung zur Kurse.<br>Alles was man brauch Kode zu schreiben. Ein programmieren Environment einstellen.<br>Und Visual Studio Code als erstes Werkzeug zu programmieren.<br>HTML (die Struktur der Webseite) und CSS (Webseite Style) kennenlernen.<br>"
+        },
+        {
+            "title": "Lerngang ist angefangen",
+            "date": "2022-03-01",
+            "description": "ich habe einen kurs \"Mega Kurs Javascript\" angefangen.<br>Der kurs wird bis ende März nächstes Jahr dauern und teil sich auf acht Fünf-Wöchige Stufen mit zwei Wochen Pause da zwischen. Jede Stufe enthält 25 Unterrichten + 5 Livecoding."
+        }
+    ]
+]
