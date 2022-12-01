@@ -37,10 +37,11 @@ const renderContentPage = (data) => {
     }))
 }
 
-try {
-    fetch(PATH)
+(async () => {try {
+    await fetch(PATH)
         .then((response) => response.json())
         .then((data) => renderContentPage(data));
 } catch (error) {
     console.log('something goes wrong!', error);
 }
+})()
