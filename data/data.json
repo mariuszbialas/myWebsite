@@ -103,47 +103,80 @@
         {
             "title": "Stufe 6: React.js",
             "date": "2022-11-21",
-            "description": "Erste Woche Rect.js lernen ist vorbei.<br>Woche Nr 1: Einfügrung, React Library, JSX versus HTML, React DOM, eigene Komponente.<br>"
+            "description": "Woche Nr 1: Einfügrung, React Library, JSX versus HTML, React DOM, eigene Komponente.<br>",
+            "link": ""
         },
         {
             "title": "Stufe 5: TypeScript - Projekt",
             "date": "2022-10-31",
-            "description": "Die Stufe 5 lerngang ist vorbei und nun fang ich ersten Typescript Projekt programmieren an.<br>Projekt heißt \"die Krieger Arene\"."
+            "description": "Die Stufe 5 lerngang ist vorbei und nun fang ich ersten Typescript Projekt programmieren an.<br>Projekt heißt \"die Krieger Arene\"<br> GitHub link: github.com/mariuszbialas/warriors.git.",
+            "link": ""
         },
         {
             "title": "Stufe 5: TypeScript",
             "date": "2022-10-03",
-            "description": "Woche Nr 1: Einführung, Einrichtung Umgebung (IDE, Compiler).<br>Woche Nr 2: Transpiration, Konfiguration.<br>Woche Nr 3: Typen, Interfaces und Klassen, Enum.<br>Woche Nr 4:  Export, Dateien teilen, Getters und Setters.<br>Woche Nr 5: Projekt Cookie Maker."
+            "description": "Woche Nr 1: Einführung, Einrichtung Umgebung (IDE, Compiler).<br>Woche Nr 2: Transpiration, Konfiguration.<br>Woche Nr 3: Typen, Interfaces und Klassen, Enum.<br>Woche Nr 4:  Export, Dateien teilen, Getters und Setters.<br>Woche Nr 5: Projekt Cookie Maker.",
+            "link": ""
+        },
+        {
+            "title": "Datenbanken - Test",
+            "date": "2022-09-23",
+            "description": "Eine Prüfung am Ende die Stufe 4",
+            "link": "images/megaK_database_test.png"
+        },
+        {
+            "title": "Express.js - Test",
+            "date": "2022-08-22",
+            "description": "Eine Prüfung am Ende die Stufe 3",
+            "link": "images/megaK_expresjs_test.png"
         },
         {
             "title": "Stufe 4: Datenbanken",
             "date": "2022-08-15",
-            "description": "Woche Nr 1: Einführung, Werkzeuge (phpAdmin, Heidi SQL, MAMP, XAMP).<br>Woche Nr 2: SQL Sprache, erste Datenbank bauen, Relationale.<br>Woche Nr 3: phpAdmin Designer, relationale Datenbank bauen.<br>Woche Nr 4: Nicht relationale Datenbank, MongoDB, CRUD.<br>Woche Nr 5: MongoDB in Node.js, relationale Datenbank auf MongoDB umsetzen."
+            "description": "Woche Nr 1: Einführung, Werkzeuge (phpAdmin, Heidi SQL, MAMP, XAMP).<br>Woche Nr 2: SQL Sprache, erste Datenbank bauen, Relationale.<br>Woche Nr 3: phpAdmin Designer, relationale Datenbank bauen.<br>Woche Nr 4: Nicht relationale Datenbank, MongoDB, CRUD.<br>Woche Nr 5: MongoDB in Node.js, relationale Datenbank auf MongoDB umsetzen.",
+            "link": ""
         },
         {
             "title": "Stufe 3: Express.js",
             "date": "2022-06-27",
-            "description": "Woche Nr 1: Request Obiekt, Routing, Response, Cookies.<br>Woche Nr 2: Middleware, Express.js App Struktur, Layout Engines.<br>Woche Nr 3: Handlebars, Projekt Cookie Konfigurator.<br>Woche Nr 4: Projekt Cookie Konfigurator.<br>Woche Nr 5: Projekt Cookie Konfigurator, Fehler und Validierung."
+            "description": "Woche Nr 1: Request Obiekt, Routing, Response, Cookies.<br>Woche Nr 2: Middleware, Express.js App Struktur, Layout Engines.<br>Woche Nr 3: Handlebars, Projekt Cookie Konfigurator.<br>Woche Nr 4: Projekt Cookie Konfigurator.<br>Woche Nr 5: Projekt Cookie Konfigurator, Fehler und Validierung.",
+            "link": ""
+        },
+        {
+            "title": "Node.js - Test",
+            "date": "2022-06-20",
+            "description": "Eine Prüfung am Ende die Stufe 2",
+            "link": "images/megaK_nodejs_test.png"
         },
         {
             "title": "Stufe 2: Node.js",
             "date": "2022-05-09",
-            "description": "Woche Nr 1: was Node.js ist, Arbeit mit Dateien, Asynchronität, FS-Module.<br>Woche Nr 2: Arbeit mit Dateien, PATH-Module, Fetch(), Node-Pakete.<br>Woche Nr 3: Prozesse (Child), Kryptografie, Hash-Funktion.<br>Woche Nr 4: Buffer, Stream, Dateien Kompression.<br>Woche Nr 5: EventEmitter, HTTP, Request, Server Funktionen, Mime Types."
+            "description": "Woche Nr 1: was Node.js ist, Arbeit mit Dateien, Asynchronität, FS-Module.<br>Woche Nr 2: Arbeit mit Dateien, PATH-Module, Fetch(), Node-Pakete.<br>Woche Nr 3: Prozesse (Child), Kryptografie, Hash-Funktion.<br>Woche Nr 4: Buffer, Stream, Dateien Kompression.<br>Woche Nr 5: EventEmitter, HTTP, Request, Server Funktionen, Mime Types.",
+            "link": ""
+        },
+        {
+            "title": "JavaScript - Test",
+            "date": "2022-05-08",
+            "description": "Eine Prüfung am Ende die Stufe 1",
+            "link": "images/megaK_javascript_test.png"
         },
         {
             "title": "Stufe 1: JavaScript",
             "date": "2022-03-21",
-            "description": "Woche Nr 1: Datentypen, Variable, Score und Hoisting, Operatoren, Arrays, Schleifen, If-Bedingung.<br>Woche Nr 2: Funktionen, Obiekte, ECMAScript6, Klassen, Arrays Methoden.<br>Woche Nr 3:  Asynchronität, API DOM, LocalStorage, JSON.<br>Woche Nr 4: Schleifen „for of“ und „for in“, Methode „reduce“, OOP praktische Übungen.<br>Woche Nr 5: OOP weitere praktische Übungen."
+            "description": "Woche Nr 1: Datentypen, Variable, Score und Hoisting, Operatoren, Arrays, Schleifen, If-Bedingung.<br>Woche Nr 2: Funktionen, Obiekte, ECMAScript6, Klassen, Arrays Methoden.<br>Woche Nr 3:  Asynchronität, API DOM, LocalStorage, JSON.<br>Woche Nr 4: Schleifen „for of“ und „for in“, Methode „reduce“, OOP praktische Übungen.<br>Woche Nr 5: OOP weitere praktische Übungen.",
+            "link": ""
         },
         {
             "title": "Woche Nr 0",
             "date": "2022-03-14",
-            "description": "Die Woche Numer 0 ist eine Vorbereitung zur Kurse.<br>Alles was man brauch Kode zu schreiben. Ein programmieren Environment einstellen.<br>Und Visual Studio Code als erstes Werkzeug zu programmieren.<br>HTML (die Struktur der Webseite) und CSS (Webseite Style) kennenlernen.<br>"
+            "description": "Die Woche Numer 0 ist eine Vorbereitung zur Kurse.<br>Alles was man brauch Kode zu schreiben. Ein programmieren Environment einstellen.<br>Und Visual Studio Code als erstes Werkzeug zu programmieren.<br>HTML (die Struktur der Webseite) und CSS (Webseite Style) kennenlernen.<br>",
+            "link": ""
         },
         {
             "title": "Lerngang ist angefangen",
             "date": "2022-03-01",
-            "description": "ich habe einen kurs \"Mega Kurs Javascript\" angefangen.<br>Der kurs wird bis ende März nächstes Jahr dauern und teil sich auf acht Fünf-Wöchige Stufen mit zwei Wochen Pause da zwischen. Jede Stufe enthält 25 Unterrichten + 5 Livecoding."
+            "description": "ich habe einen kurs \"Mega Kurs Javascript\" angefangen.<br>Der kurs wird bis ende März nächstes Jahr dauern und teil sich auf acht Fünf-Wöchige Stufen mit zwei Wochen Pause da zwischen. Jede Stufe enthält 25 Unterrichten + 5 Livecoding.",
+            "link": ""
         }
     ]
 ]
