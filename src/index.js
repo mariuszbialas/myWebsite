@@ -27,14 +27,26 @@ const switchContent = (data, index, title) => {
     }
 }
 
+const resetActiveButtons = () => {
+    buttons.forEach(button => {
+        button.className.remove("active");
+        console.log(button.className);
+    });
+
+}
+
 const renderContentPage = (data) => {
     renderProfileContent(data[0]);
 
-    buttons.forEach((btn, index) => btn.addEventListener('click', (e) => {
+    buttons.forEach((button, index) => {
+        
+        button.addEventListener('click', (e) => {
+            resetActiveButtons();
+            switchContent(data, index, e.target.textContent);
+            e.currentTarget.className += "active";
+        });
 
-        switchContent(data, index, e.target.textContent);
-
-    }))
+    })
 }
 
 (async () => {

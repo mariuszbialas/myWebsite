@@ -55,8 +55,10 @@ body {
 
 .menu__nav a {
     display: block;
-    padding: 20px;
+    padding: 10px 40px;
+    text-align: left;
     font-size: 1.3rem;
+    transition: .3s;
 }
 
 .menu__nav a:hover {
@@ -212,22 +214,32 @@ body {
     .menu {
         position: relative;
         z-index: 1;
+        box-shadow: 0 0 0 rgb(0 0 0 /.0);
     }
 
     .menu__nav {
         position: relative;
         top: 10px;
+        left: 0;
         max-height: 100%;
         text-align: center;
     }
 
+
     .menu__nav a {
-        padding: 20px 5px;
+        padding: 20px;
     }
 
     .menu__nav a:hover {
         background-color: #eee;
         color: var(--bgc-primary);
+        font-weight: 700;
+    }
+
+    .active {
+        background-color: #eee;
+        color: var(--bgc-primary);
+        font-weight: 700;
     }
 
     .menu__icon {
@@ -262,7 +274,7 @@ body {
     }
 
     .main__content {
-        padding: 5px 20px;
+        padding: 20px;
         background-color: #eee;
     }
 }
