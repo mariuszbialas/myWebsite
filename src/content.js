@@ -7,10 +7,8 @@ export const renderProfileContent = (data) => {
 
     content.innerHTML = '';
     content.innerHTML = `
-        <div>
-          <div class="main__content-img">
-            <img src="${data[0].img}" alt=""/>
-          </div>
+        <div class="main__content-img">
+          <img src="${data[0].img}" alt=""/>
           <p class="text text-just">${data[0].description}</p>
         </div>
         `;
