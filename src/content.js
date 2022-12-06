@@ -73,11 +73,12 @@ export const renderBlogContent = (data, name) => {
 
     data.forEach((element) => {
 
-        content.innerHTML += `
+        content.innerHTML += 
+        `<article>
             <p class="name text">${element.title}</p>
             <p class="date text"> ${element.date}</p>
             <p class="text">${element.description}</p>
             <img style="width: 100%" src="${element.link}" alt="">
-        `;
+        </article>`;
     });
 };
