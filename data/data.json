@@ -136,7 +136,7 @@
         {
             "title": "Stufe 6: React.js",
             "date": "2022-11-21",
-            "description": "Woche Nr 1: Einfügrung, React Library, JSX versus HTML, React DOM, eigene Komponente.<br>Woche Nr 2: Props, Hooks, useEffect, Class Components.<br>",
+            "description": "Woche Nr 1: Einfügrung, React Library, JSX versus HTML, React DOM, eigene Komponente.<br>Woche Nr 2: Props, Hooks, , useState, useEffect, Class Components.<br>Woche Nr 3: Props - erweiterte Verwendung von Komponenten, Events, Projekt UserInfo<br>",
             "link": ""
         },
 
@@ -144,7 +144,7 @@
             "title": "Stufe 5: TypeScript - Projekt",
             "date": "2022-10-31",
             "description": "Die Stufe 5 lerngang ist vorbei und nun fang ich ersten Typescript Projekt programmieren an.<br>Projekt heißt \"die Krieger Arene\"<br> GitHub link: github.com/mariuszbialas/warriors.git.",
-            "link": ""
+            "link": "images/typescript-warrior.png"
         },
         {
             "title": "Stufe 5: TypeScript",
