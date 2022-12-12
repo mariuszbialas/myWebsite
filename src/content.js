@@ -15,14 +15,16 @@ export const renderProfileContent = (data) => {
 };
 
 const knowledgeContentHtml = (name, percent) => {
-    return `
-            <li>
-              <span>${name}</span>
-              <span class="percent">
-                <div style="width: ${percent}%"></div>
-              </span>
-            </li>
-        `;
+    return name === ""
+        ? `<li><br></li>` 
+        : `
+                <li>
+                <span>${name}</span>
+                <span class="percent">
+                    <div style="width: ${percent}%"></div>
+                </span>
+                </li>
+            `;
 }
 
 export const renderKnowledgeContent = (data, name) => {
@@ -78,7 +80,7 @@ export const renderBlogContent = (data, name) => {
             <p class="name text">${element.title}</p>
             <p class="date text"> ${element.date}</p>
             <p class="text">${element.description}</p>
-            <img style="width: 100%" src="${element.link}" alt="">
+            <img src="${element.link}" alt="">
         </article>`;
     });
 };

@@ -20,12 +20,20 @@
             "percent": 60
         },
         {
+            "name": "",
+            "percent": null
+        },
+        {
             "name": "HTML",
             "percent": 80
         },
         {
             "name": "CSS",
             "percent": 70
+        },
+        {
+            "name": "",
+            "percent": null
         },
         {
             "name": "JavaScript",
@@ -36,6 +44,14 @@
             "percent": 55
         },
         {
+            "name": "TypeScript",
+            "percent": 45
+        },
+        {
+            "name": "",
+            "percent": null
+        },
+        {
             "name": "mySQL Database",
             "percent": 70
         },
@@ -43,13 +59,18 @@
             "name": "mongoDB",
             "percent": 30
         },
+    
         {
-            "name": "TypeScript",
-            "percent": 40
+            "name": "",
+            "percent": null
         },
         {
             "name": "Git/GitHub",
             "percent": 60
+        },
+        {
+            "name": "",
+            "percent": null
         },
         {
             "name": "3D SketchUp",
@@ -100,6 +121,12 @@
         }
     ],
     [
+        {
+            "title": "Stufe 6: React.js",
+            "date": "2022-12-11",
+            "description": "Project UserList: https://github.com/mariuszbialas/UserInfoComponent<br>Eine Benutzerliste aus JSON-Daten mit CSS-Stil.",
+            "link": "images/react-app-userinfo.png"
+        },
         {
             "title": "Typescript - Test",
             "date": "2022-12-07",

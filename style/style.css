@@ -201,6 +201,12 @@ body {
     line-height: 1.6;
 }
 
+/* section MEIN BLOG */
+
+.main__content article img {
+    margin: 10px 0 0 10px;
+}
+
 
 @media (min-width: 750px) {
 
