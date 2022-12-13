@@ -153,7 +153,7 @@ body {
     margin: 10px 30px 0 0;
 }
 
-.main__content > article {
+.main__content>article {
     box-shadow: 0 0 5px 3px rgb(0 0 0 /.1);
     padding: 10px;
     background-color: #fff;
@@ -204,7 +204,8 @@ body {
 /* section MEIN BLOG */
 
 .main__content article img {
-    margin: 10px 0 0 10px;
+    width: 100%;
+    
 }
 
 
@@ -293,5 +294,11 @@ body {
     .main__content {
         padding: 20px;
         background-color: #eee;
+    }
+
+    /* section MEIN BLOG */
+    .main__content article img {
+        margin: 10px 0 0 10px;
+        max-width: 300px;
     }
 }
