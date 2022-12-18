@@ -246,6 +246,7 @@ body {
 
     .menu__nav a {
         padding: 20px;
+        font-size: 1rem;
     }
 
     .menu__nav a:hover {
