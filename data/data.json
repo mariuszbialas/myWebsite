@@ -13,7 +13,7 @@
         },
         {
             "name": "Deutsch",
-            "percent": 65
+            "percent": 70
         },
         {
             "name": "Englisch",
@@ -46,6 +46,10 @@
         {
             "name": "TypeScript",
             "percent": 45
+        },
+        {
+            "name": "React.JS",
+            "percent": 30
         },
         {
             "name": "",
@@ -136,7 +140,7 @@
         {
             "title": "Stufe 6: React.js",
             "date": "2022-11-21",
-            "description": "Woche Nr 1: Einfügrung, React Library, JSX versus HTML, React DOM, eigene Komponente.<br>Woche Nr 2: Props, Hooks, , useState, useEffect, Class Components.<br>Woche Nr 3: Props - erweiterte Verwendung von Komponenten, Events, Projekt UserInfo<br>",
+            "description": "Woche Nr 1: Einfügrung, React Library, JSX versus HTML, React DOM, eigene Komponente.<br>Woche Nr 2: Props, Hooks, , useState, useEffect, Class Components.<br>Woche Nr 3: Props - erweiterte Verwendung von Komponenten, Events, Projekt UserInfo.<br>Woche Nr 4: Liste Still, Raect-Forms, Composition, Api's, Typescript einführung",
             "link": ""
         },
 
