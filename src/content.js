@@ -3,13 +3,13 @@ const title = document.querySelector('.main__header h1');
 
 export const renderProfileContent = (data) => {
 
-    title.textContent = data[0].name;
+    title.textContent = data.name;
 
     content.innerHTML = '';
     content.innerHTML = `
         <div class="main__content-img">
-          <img src="${data[0].img}" alt=""/>
-          <p class="text text-just">${data[0].description}</p>
+          <img src="${data.img}" alt=""/>
+          <p class="text text-just">${data.description}</p>
         </div>
         `;
 };

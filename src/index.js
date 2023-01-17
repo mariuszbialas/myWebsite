@@ -8,19 +8,19 @@ const switchContent = (data, index, title) => {
 
     switch (index) {
         case 0:
-            renderProfileContent(data[index]);
+            renderProfileContent(data.aboutMe[0]);
             break;
         case 1:
-            renderKnowledgeContent(data[index], title);
+            renderKnowledgeContent(data.knowglegde, title);
             break;
         case 2:
-            renderEducationContent(data[index], title);
+            renderEducationContent(data.education, title);
             break;
         case 3:
-            renderExperienceContent(data[index], title);
+            renderExperienceContent(data.experience, title);
             break;
         case 4:
-            renderBlogContent(data[index], title);
+            renderBlogContent(data.blog, title);
             break;
         default:
             break;
@@ -28,9 +28,12 @@ const switchContent = (data, index, title) => {
 }
 
 const renderContentPage = (data) => {
-    renderProfileContent(data[0]);
+    
+    renderProfileContent(data.aboutMe[0]);
 
     buttons.forEach((btn, index) => btn.addEventListener('click', (e) => {
+
+        // console.log(data, index, e.target.textContent)
 
         switchContent(data, index, e.target.textContent);
 

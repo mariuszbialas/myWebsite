@@ -1,12 +1,12 @@
-[
-    [
+{
+    "aboutMe": [
         {
             "name": "Über mich",
             "description": "Hallo, ich bin Mariusz.<br>nach einer mehrjährigen Tätigkeit im Elektrobereich strebe ich eine berufliche Veränderung an. Privat beschäftige ich mich schon paar Jahre lang mit Programmierung und möchte diese Leidenschaft nun endlich auch beruflich ausleben.<br>Mit einer Integrierten Entwicklungsumgebung (MIT App Inventor) fing ich Anwendungen für Android zu bauen. Die Umgebung wurde von Google entwickelt.<br>Tatsächlich war es keine richtige Programmierung. Eine App wurde, wie Puzzle, von einzelnen Elemente zusammengebaut.<br>Am ende des 2021 Jahres habe ich mich entschieden etwas mehr über Programmierung zu informieren, um HTML, CSS und Javascript besser kennenzulernen.<br>Durch mein Selbststudium kenne ich mich mit Frontend Development immer besser aus. In einen Kurs zum Thema JavaScript baue ich  meine Kenntnisse zusätzlich aus.",
             "img": "./images/profil-photo.jpeg"
         }
     ],
-    [
+    "knowglegde": [
         {
             "name": "Polnisch - Muttersprache",
             "percent": 90
@@ -63,7 +63,6 @@
             "name": "mongoDB",
             "percent": 30
         },
-    
         {
             "name": "",
             "percent": null
@@ -79,26 +78,37 @@
         {
             "name": "3D SketchUp",
             "percent": 70
+        },
+        {
+            "name": "VSCode",
+            "percent": 60
+        },
+        {
+            "name": "WebStorm",
+            "percent": 60
         }
     ],
-    [
+    "education": [
         {
             "name": "Mega Kurs Javascript",
-            "date": "2022-03 - 2023-02",
+            "start": "2022-03",
+            "end": "2023-02",
             "description": "JavaScript, Node.js, Express.js, MySQL & MongoDB, MySQL & MongoDB - Full-stack developer - React"
         },
         {
             "name": "KEB Lebach",
-            "date": "2014-08 - 2015-03",
+            "start": "2014-08",
+            "end": "2015-03",
             "description": "Berufsbezogene Sprachförderung"
         },
         {
             "name": "Berufsbildendes Technikum in Tarnów, Polen",
-            "date": "1990-09 - 1995-06",
+            "start": "1990-09",
+            "end": "1995-06",
             "description": "Techniker Elektroniker"
         }
     ],
-    [
+    "experience": [
         {
             "company": "ESS Zang, Schmelz",
             "name": "Elektriker",
@@ -124,7 +134,7 @@
             "description": "Fundacja(Stiftung) Nowe Technologie, Telekomunikacja NOVUM, EuroBank S.A., Telekomunikacja Polska S.A."
         }
     ],
-    [
+    "blog": [
         {
             "title": "Stufe 6: React.js",
             "date": "2022-12-11",
@@ -143,7 +153,6 @@
             "description": "Woche Nr 1: Einfügrung, React Library, JSX versus HTML, React DOM, eigene Komponente.<br>Woche Nr 2: Props, Hooks, , useState, useEffect, Class Components.<br>Woche Nr 3: Props - erweiterte Verwendung von Komponenten, Events, Projekt UserInfo.<br>Woche Nr 4: Liste Still, Raect-Forms, Composition, Api's, Typescript einführung",
             "link": ""
         },
-
         {
             "title": "Stufe 5: TypeScript - Projekt",
             "date": "2022-10-31",
@@ -217,4 +226,4 @@
             "link": ""
         }
     ]
-]
+}
