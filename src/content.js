@@ -45,13 +45,16 @@ export const renderKnowledgeContent = (data, name) => {
 }
 
 export const renderEducationContent = (data, name) => {
+
+    console.log(data);
+
     content.innerHTML = '';
     title.textContent = name;
 
     data.forEach((element) => {
         content.innerHTML += `
             <p class="name text">${element.name}</P>
-            <P class="date text">${element.date}</p>
+            <P class="date text">${element.start} - ${element.end}</p>
             <p class="text">${element.description}</p>`
     });
 };
